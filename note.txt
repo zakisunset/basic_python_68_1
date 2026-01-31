@@ -1,0 +1,17 @@
+git clone https://github.com/zakisunset/basic_python_68_1
+
+cd เข้าโฟลเดอร์(ตามด้วยชื่อโฟลเดอร์)
+cd .. (ออกจากโฟลเดอร์)
+ls (เช็คโฟลเดอร์และไฟล์)
+ls - al (แสดงไฟล์และโฟลเดอร์ทั้งหมด)
+pwd (เช็คที่อยู่โฟลเดอร์)
+code . (เริ่มเขียนโค้ดในโฟลเดอร์นั้นๆ)
+
+git init (ทำให้โฟลเดอร์รู้จักกับกิต)
+git romote add origin https://github.com/zakisunset/basic_python_68_1 (เพื่อทำให้เชื่อมต่อเครื่องมือกิต)
+git config --global user.name "zakisunset"
+git config --global user.email "zakisunset@gmail.com"
+git add .
+git commit -m "your message" (ทำไฟล์ซิป)
+git push origin main (การส่งไปเซฟ)
+git pull origin main (การดยกไฟล์)
